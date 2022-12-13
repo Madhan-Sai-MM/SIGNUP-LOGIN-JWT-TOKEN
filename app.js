@@ -28,7 +28,7 @@ app.use('/', authRouter)
 app.use('/employes', employRouter)
 
 //POST METHOD
-app.get('/postEmployes', function(req,res){
+app.get('/addPost', function(req,res){
   res.sendFile(__dirname + '/public/post.html')
 })
 

@@ -10,7 +10,7 @@ employRouter.get('/', getEmployes)
 employRouter.get('/:employID', getEmployesByID)
 
 //Route level Middleware
-employRouter.post('/postEmployes', isAdminMiddleware, postEmployes)
+employRouter.post('/', isAdminMiddleware, postEmployes)
 employRouter.put('/:employID', isAdminMiddleware, updateEmployesById)
 employRouter.delete('/:employID', isAdminMiddleware, deleteEmployesByID)
 

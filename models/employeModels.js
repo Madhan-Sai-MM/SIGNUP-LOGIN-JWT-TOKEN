@@ -20,5 +20,5 @@ const empSchema = new Schema({
 })
 
 //Map mongodb collection to the Schema created above. .model returns an obj using which we can perform all operations in movie colection
-const empModel = mongoose.model('empDATA', empSchema)
+const empModel = mongoose.model('empdata2', empSchema)
 module.exports = empModel
