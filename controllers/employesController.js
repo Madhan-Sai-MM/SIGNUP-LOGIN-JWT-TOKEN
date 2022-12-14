@@ -34,7 +34,7 @@ const postEmployes = async (req, res) => {
   const { name, jobName, hireDate, salary } = req.body;
 
   try {
-    const resultEmploy = await UserModel.create({ name, jobName, hireDate, salary })
+    const resultEmploy = await empModel.create({ name, jobName, hireDate, salary })
     res.status(201).send({ status: 'success', employ: resultEmploy })
   } catch (err) {
     //log in a file for debug err
