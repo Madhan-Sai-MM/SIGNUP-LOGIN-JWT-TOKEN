@@ -7,17 +7,17 @@ const employRouter = require('./routes/employRouter')
 
 const app = express()
 
-//load all key-value pairs in .env file to process.env obj
-const dotenv = require('dotenv')
-dotenv.config()
-
-initDB()
-
 //middleware
 app.use(express.static('public'))
 
 //The urlencoded method within body-parser tells body-parser to extract data from the <form>
 app.use(express.urlencoded())
+
+//load all key-value pairs in .env file to process.env obj
+const dotenv = require('dotenv')
+dotenv.config()
+
+initDB()
 
 //middleware
 app.use(express.json())
