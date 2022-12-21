@@ -38,7 +38,7 @@ app.get('/signup', function(req, res) {
   res.sendFile(__dirname + '/public/signup.html')
 })
 
-//GET METHOD
+//GET METHOD 22222
 app.get('/login', function(req, res) {
   //res.send("hi mm")
   res.sendFile(__dirname + '/public/login.html')
