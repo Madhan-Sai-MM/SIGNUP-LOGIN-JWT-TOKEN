@@ -1,0 +1,43 @@
+.form{
+    background-color: rgb(159, 208, 210);
+    color: crimson;
+    border-radius: 22px;
+    padding: 15px;
+    height: 500px;
+    width: 500px;
+}
+
+label{
+    background-color: black;
+    border: 2px solid white;
+    padding: 9px;
+    color: white;
+    border-radius: 22px;
+    margin-right: 2%;
+    font-size: larger;
+}
+
+input{
+    background-color: antiquewhite;
+    border-radius: 22px;
+    border: 2px solid rgb(129, 129, 227);
+    padding: 9px;
+    width: 200px;
+}
+
+#submit{
+    width: 150px;
+    height: 40px;
+    padding: 9px;
+    border-radius: 22px;
+    border: 2px solid rgb(206, 193, 196);
+    background-color: rgb(49, 63, 216);
+    color: rgb(223, 218, 218);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#submit:hover{
+    color: white;
+    background-color: black;
+}

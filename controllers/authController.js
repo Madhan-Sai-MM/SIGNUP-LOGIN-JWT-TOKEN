@@ -43,6 +43,7 @@ const logout = (req, res) => {
   res.send({ status: 'success', msg: "Logged out successfully" })
 }
 
+
 module.exports = {
   signup, login, logout
 }
